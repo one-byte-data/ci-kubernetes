@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"git.onebytedata.com/OneByteDataPlatform/ci-kubernetes/clients"
+	"github.com/JustSomeHack/ci-kubernetes/clients"
 )
 
 func main() {
