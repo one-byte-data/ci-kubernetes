@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/JustSomeHack/ci-kubernetes/clients"
+	"github.com/one-byte-data/ci-kubernetes/clients"
 )
 
 func main() {
@@ -51,11 +51,8 @@ func main() {
 		switch kind {
 		case "cronjob":
 			client.UpdateCronImage(name, imageName, imageTag)
-			break
 		case "deployment":
 			client.UpdateDeploymentImage(name, imageName, imageTag)
-			break
 		}
-		break
 	}
 }
